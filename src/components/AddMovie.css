@@ -1,0 +1,66 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="url"],
+  textarea,
+  select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  button[type="Cancel"] {
+    background-color: #dc3545;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+
+  .add-movie {
+    display: flex;
+    flex-direction: column; /* Ensures title appears above */
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding-left: 85vh;
+}
+
+
+  .Title{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 24px; 
+    color: white; 
+  }
+
+  
